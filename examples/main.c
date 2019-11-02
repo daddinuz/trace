@@ -29,6 +29,6 @@
 #include <trace.h>
 
 int main() {
-    printf("here: %s\r\n", __TRACE__);
+    printf("[%s]: Hello World!\r\n", __TRACE__);
     return 0;
 }
