@@ -40,7 +40,7 @@ extern "C" {
 #define TRACE_VERSION_IS_RELEASE    0
 #define TRACE_VERSION_HEX           0x010000
 
-#define __TRACE__   __FILE__ ":" stringify(__LINE__)
+#define __TRACE__                   __FILE__ ":" stringify(__LINE__)
 
 #ifdef __cplusplus
 }
