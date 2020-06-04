@@ -1,7 +1,7 @@
 /*
  * The MIT License (MIT)
  *
- * Copyright (c) 2019 Davide Di Carlo
+ * Copyright (c) 2020 Davide Di Carlo
  *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation
@@ -28,7 +28,7 @@
 #include <stdio.h>
 #include <trace.h>
 
-int main() {
-    printf("[%s]: Hello World!\r\n", __TRACE__);
+int main(void) {
+    printf("['%s']: Hello World!\r\n", TRACE);
     return 0;
 }

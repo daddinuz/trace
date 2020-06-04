@@ -4,8 +4,8 @@
 #include <stdio.h>
 #include <trace.h>
 
-int main() {
-    printf("[%s]: Hello World!\r\n", __TRACE__);
+int main(void) {
+    printf("['%s']: Hello World!\r\n", TRACE);
     return 0;
 }
 ```
